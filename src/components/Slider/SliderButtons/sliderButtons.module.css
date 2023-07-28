@@ -1,0 +1,12 @@
+.navButtons {
+  /* position: absolute; */
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  gap: 40px;
+}
+
+/* .prevButton,
+.nextButton {
+  cursor: pointer;
+} */

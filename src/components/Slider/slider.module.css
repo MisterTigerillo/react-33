@@ -1,0 +1,24 @@
+.slider {
+  position: relative;
+  outline: 1px solid green;
+  margin-bottom: 30px;
+}
+
+.slide {
+  outline: 1px solid red;
+}
+
+.image {
+  display: block;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.navButtons {
+  position: absolute;
+}
+.nextButton,
+.prevButton {
+  cursor: pointer;
+}
