@@ -2,9 +2,9 @@ import css from './sliderButtons.module.css';
 
 import { BsChevronRight, BsChevronLeft } from 'react-icons/bs';
 
-export const SliderButtons = ({ classPrev, classNext }) => {
+export const SliderButtons = ({ navButtons, classPrev, classNext }) => {
   return (
-    <div className={css.navButtons}>
+    <div className={navButtons}>
       <div className={classPrev}>
         <BsChevronLeft />
       </div>

@@ -1,6 +1,7 @@
 @import-normalize; /* bring in normalize.css styles */
 
 * {
+  box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
@@ -11,7 +12,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  box-sizing: border-box;
+  /* min-height: 100vh; */
 }
 
 code {
@@ -20,23 +21,33 @@ code {
 }
 
 .slides {
-  /* max-width: 1200px; */
+  /* white-space: nowrap; */
   display: flex;
-  justify-content: center;
+  width: 90%;
+  margin: 50px auto 0;
   gap: 5px;
   outline: 1px solid burlywood;
-  /* padding: 5px; */
+  background-color: bisque;
+  padding: 5px;
 }
 
 .slide {
-  width: 290px;
+  /* width: 290px; */
+  /* flex: 0 1 25%; */
+
   outline: 1px solid black;
-  /* margin: 10px; */
 }
 
 .slide > img {
-  display: block;
-  object-fit: contain;
+  /* width: calc(100% / 2); */
   width: 100%;
-  height: 100%;
+  display: block;
+  /* height: 300px; */
+  /* object-fit: contain; */
+  /* width: 100%; */
+  /* height: 100%; */
+}
+
+.navButts {
+  display: flex;
 }
