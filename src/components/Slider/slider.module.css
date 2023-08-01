@@ -1,14 +1,15 @@
-.slider {
+.sliderWrapper {
   width: 50%;
   margin: 0 auto;
   outline: 2px dotted firebrick;
 }
-.slide {
+
+.slider {
   position: relative;
   box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
 }
 
-.slide > .image {
+.slider .image {
   display: block;
   padding: 0;
   margin: 0;

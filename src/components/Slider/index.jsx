@@ -9,7 +9,7 @@ export const Slider = ({ slides }) => {
   const prev = `${css.prevButton}`;
   const next = `${css.nextButton}`;
   return (
-    <div className={css.slider}>
+    <div className={css.sliderWrapper}>
       <Swiper
         modules={[Navigation]}
         spaceBetween={50}
@@ -20,7 +20,7 @@ export const Slider = ({ slides }) => {
         }}
         loop={true}
         slidesPerView={1}
-        className={css.slide}
+        className={css.slider}
       >
         {slides.map(slide => (
           <SwiperSlide className={css.slide} key={slide.image}>
